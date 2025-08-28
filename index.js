@@ -70,8 +70,8 @@ async function runBot() {
       console.log(`\n🔄 Starting cycle ${cycleCount}...`);
       
       // Navigate to the website
-      console.log('📱 Navigating to rbxchecking.com...');
-      await page.goto('https://rbxchecking.com/', { 
+      console.log('📱 Navigating to robloxcheck.com...');
+      await page.goto('https://robloxcheck.com/', { 
         waitUntil: 'networkidle2',
         timeout: 30000 
       });
