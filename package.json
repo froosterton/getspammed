@@ -1,0 +1,19 @@
+{
+  "name": "rbx-checker-bot",
+  "version": "1.0.0",
+  "description": "Automated bot for rbxchecking.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": ["roblox", "automation", "bot"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^21.11.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
